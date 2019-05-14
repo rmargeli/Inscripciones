@@ -111,7 +111,9 @@ public class ControladorInscripciones {
 		for(Curso c : cursos)
 			resultado.add(c.toView());
 		return resultado;
-	} 
+	}
+	
+	
 	
 	public List<MateriaView> getMaterias(){
 		List<MateriaView> resultado = new ArrayList<MateriaView>();
